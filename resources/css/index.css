@@ -1,0 +1,67 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.red {
+    color: red;
+}
+
+
+.banner {
+    background-color: bisque;
+    margin-top: 60.4px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.jbp {
+    padding:25px 50px;
+}
+
+.avatar {
+    background-image: url('../images/jordan_peterson_caricature-bg.png');
+    background-size: cover;
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#small-jbp {
+    height: 200px;
+    filter: drop-shadow(16px 16px 16px black);
+}
+
+#jbp {
+    color: burlywood;
+    font-size: 100px;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+#greets li {
+    padding: 5px 0;
+}
